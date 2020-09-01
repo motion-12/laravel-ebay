@@ -4,6 +4,12 @@
     "type": "library",
     "keywords": ["ebay", "api", "sdk", "laravel", "laravel5", "php"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "github",
+            "url": "git@github.com:motion-12/ebay-sdk-php.git"
+        }
+    ],
     "require": {
         "php": ">=5.5",
         "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0|~16.0|~17.0|~18.0"
